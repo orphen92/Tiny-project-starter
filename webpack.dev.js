@@ -8,7 +8,7 @@ module.exports = merge(common, {
         filename: "[name].bundle.js",
     },
     devServer: {
-        static: path.join(__dirname, "src/app/template"),
+        static: path.join(__dirname, "src/app"),
         port: 9000,
         open: true,
         hot: true
